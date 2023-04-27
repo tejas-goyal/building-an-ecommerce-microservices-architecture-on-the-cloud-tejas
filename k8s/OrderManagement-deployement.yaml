@@ -17,4 +17,4 @@ spec:
           image: order
           imagePullPolicy: Never
           ports:
-            - containerPort: 8003
+            - containerPort: 8004

@@ -1,6 +1,6 @@
 export const cancelorder = async (email, _id) => {
   try {
-    const result = await fetch("http://localhost:8003/cancelorder", {
+    const result = await fetch("http://localhost:8004/cancelorder", {
       method: "PATCH",
       body: JSON.stringify({ email, _id }),
       headers: {
@@ -23,7 +23,7 @@ export const cancelorder = async (email, _id) => {
 export const placeorder = async (order) => {
   try {
     console.log("Sending place order request")
-    const result = await fetch("http://localhost:8003/placeorder", {
+    const result = await fetch("http://localhost:8004/placeorder", {
       method: "POST",
       body: JSON.stringify(order),
       headers: {

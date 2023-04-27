@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 
 // Constants
-const PORT = 8003;
+const PORT = 8004;
 const HOST = "0.0.0.0";
 
 // App
