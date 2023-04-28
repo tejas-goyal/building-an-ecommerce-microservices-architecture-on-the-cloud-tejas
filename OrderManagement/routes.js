@@ -16,8 +16,9 @@ mongoose
   .catch((err) => {
     console.log("Error : ", err);
   });
-
+  //"mongodb+srv://xdneeraj:Root@clusterstore.16q3u8s.mongodb.net/ecommerce?retryWrites=true&w=majority"
 // Routes
+//change
 router.post("/placeorder", async (req, res) => {
   console.log("Recieved place order request")
   const ostatus = "New";
